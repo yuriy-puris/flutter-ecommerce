@@ -101,7 +101,7 @@ class RegisterPageState extends State<RegisterPage> {
   }
 
   void _registerUser() async {
-    http.Response response = await http.post('http://localhost:1337/auth/local/register', 
+    http.Response response = await http.post('http://10.0.2.2:1337/auth/local/register', 
     body: {
       "username": _username,
       "email": _email,
