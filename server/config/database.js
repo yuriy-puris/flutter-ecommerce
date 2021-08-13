@@ -4,12 +4,12 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', '@cluster0.cpuk0.mongodb.net'),
+        host: env('DATABASE_HOST', '@flutter-ecommerce.sod2v.mongodb.net'),
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
         database: env('DATABASE_NAME', 'server'),
-        username: env('DATABASE_USERNAME', 'yuriy_puris'),
-        password: env('DATABASE_PASSWORD', '090993'),
+        username: env('DATABASE_USERNAME', 'ypuris'),
+        password: env('DATABASE_PASSWORD', 'ypuris'),
       },
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),

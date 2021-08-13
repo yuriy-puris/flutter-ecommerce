@@ -13,19 +13,19 @@
   "dependencies": {
     "strapi": "3.1.0-alpha.5",
     "strapi-admin": "3.1.0-alpha.5",
-    "strapi-connector-mongoose": "3.1.0-alpha.5",
-    "strapi-plugin-content-manager": "3.1.0-alpha.5",
+    "strapi-utils": "3.1.0-alpha.5",
     "strapi-plugin-content-type-builder": "3.1.0-alpha.5",
-    "strapi-plugin-email": "3.1.0-alpha.5",
-    "strapi-plugin-upload": "^3.5.4",
+    "strapi-plugin-content-manager": "3.1.0-alpha.5",
     "strapi-plugin-users-permissions": "3.1.0-alpha.5",
-    "strapi-utils": "3.1.0-alpha.5"
+    "strapi-plugin-email": "3.1.0-alpha.5",
+    "strapi-plugin-upload": "3.1.0-alpha.5",
+    "strapi-connector-mongoose": "3.1.0-alpha.5"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "ea73e539-f821-48dc-aa98-ce830da1cf1d"
+    "uuid": "0517c29f-f703-47c4-8a80-41162213dd82"
   },
   "engines": {
     "node": ">=10.0.0",
